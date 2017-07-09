@@ -1,6 +1,6 @@
 function highAndLow(numbers){
   let nums = numbers.split(' ');
-  let numArray = nums.map(item => {
+  nums.map(item => {
     return parseInt(item);
   });
   let min = Math.min.apply(null, nums);
